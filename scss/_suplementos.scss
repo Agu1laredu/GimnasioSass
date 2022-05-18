@@ -1,0 +1,44 @@
+main {
+    margin-top: 10%;
+    section {
+        margin-top: 10%;
+        display: flex;
+        margin: auto;
+      img {
+        margin-top: 10%;
+          max-height: 40vh;
+          width: 30%;
+          margin: auto;
+      }
+    }
+    .img-promo-info {
+        border: none;
+        max-height: 40vh;
+      width: 300px;
+    }
+  }
+
+
+  .card{
+      border: none;
+      margin-top: 5%;
+      margin-bottom: 10%;
+  }
+
+
+
+  @media (max-width: 800px) {
+    main {
+      section {
+        img {
+          width: 425px;
+          height: 560px;
+        }
+      }
+      .container {
+          
+        width: 425px;
+      }
+    }
+  }
+  

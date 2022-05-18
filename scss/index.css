@@ -15,6 +15,38 @@ html {
   margin-left: 20%;
 }
 
+footer {
+  height: 400px;
+  width: 100%;
+  background-image: url(/Imagenes/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+footer #contac {
+  margin-left: -5%;
+}
+
+footer a {
+  color: #ac0101;
+}
+
+footer a:hover {
+  color: red;
+}
+
+@media (max-width: 700px) {
+  footer h3 {
+    margin-left: -5%;
+  }
+  footer .C {
+    margin-left: -5%;
+  }
+}
+
 .carousel {
   margin-top: 5%;
 }
@@ -26,8 +58,8 @@ article .card {
 }
 
 article .card img {
-  height: 700px;
-  width: 700px;
+  height: 70%;
+  width: 70%;
   margin: auto;
 }
 
@@ -72,6 +104,47 @@ footer a:hover {
   }
   footer .C {
     margin-left: -5%;
+  }
+}
+
+main {
+  margin-top: 10%;
+}
+
+main section {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+main section img {
+  margin-top: 10%;
+  max-height: 40vh;
+  width: 30%;
+  margin: auto;
+}
+
+main .img-promo-info {
+  border: none;
+  max-height: 40vh;
+  width: 300px;
+}
+
+.card {
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 800px) {
+  main section img {
+    width: 425px;
+    height: 560px;
+  }
+  main .container {
+    width: 425px;
   }
 }
 /*# sourceMappingURL=index.css.map */
