@@ -75,6 +75,19 @@ article .card .p {
   width: 37%;
 }
 
+@media (max-width: 800px) {
+  article .card h5 {
+    margin-top: 20%;
+  }
+  article .card .p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+
 footer {
   height: 400px;
   width: 100%;

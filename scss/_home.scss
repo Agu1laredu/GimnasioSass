@@ -38,7 +38,21 @@ article{
   }
 }
 
+@media (max-width: 800px) {
+ article{
 
+  .card{
+    h5{
+      margin-top: 20%;
+    }
+    .p{
+      display: flex;
+      width: 100%;
+      margin-bottom: 5%;
+  }
+   }
+ }
+}
 
 
 
